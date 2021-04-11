@@ -1,50 +1,104 @@
-/*
-Template Name: Admin pro Admin
-Author: Wrappixel
-Email: niravjoshi87@gmail.com
-File: scss
-*/
-/*
-Template Name: Admin Pro Admin
-Author: Wrappixel
-Email: niravjoshi87@gmail.com
-File: scss
-*/
-/*Theme Colors*/
-/*bootstrap Color*/
-/*Light colors*/
-/*Normal Color*/
-/*Extra Variable*/
-/*******************
-Login register and recover password Page
-******************/
-.login-register {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 100%;
-  width: 100%;
-  padding: 10% 0;
-  position: fixed; }
+.wrapper {
+    background: #EDF2F9;
+    padding: 0 15px;
+    height: 100vh;
+}
 
-.login-box {
-  width: 400px;
-  margin: 0 auto; }
-  .login-box .footer {
-    width: 100%;
-    left: 0px;
-    right: 0px; }
-  .login-box .social {
-    display: block;
-    margin-bottom: 30px; }
+.card-r {
+    background: #fff;
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 
-#recoverform {
-  display: none; }
+.col-sm-9 {
+    padding: 0;
+    padding-bottom: 13px;
+}
 
-.login-sidebar {
-  padding: 0px;
-  margin-top: 0px; }
-  .login-sidebar .login-box {
-    right: 0px;
-    position: absolute;
-    height: 100%; }
+.titulo {
+    font-weight: bold;
+    color: rgb(58, 57, 57);
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+}
+
+.sub-titulo {
+    font-size: 0.8rem;
+}
+
+.login {
+    color: #2c7be5 !important;
+    font-weight: bold;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.checkbox {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+button {
+    background: #2c7be5;
+    color: #fff;
+}
+
+.relleno {
+    background: rgb(170, 169, 169);
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.desc {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+label {
+    margin: 0px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 13px;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 480px) {
+    .card-r {
+        max-width: 500px;
+        margin: auto;
+    }
+    .flex {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .titulo {
+        font-size: 1.7rem;
+    }
+    .sub-titulo {
+        font-size: 1.1rem;
+    }
+    .desc {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    .registrar {
+        padding-top: 20px;
+    }
+}
